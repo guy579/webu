@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  border: 1px solid #ccc;
+  padding: 2rem;
+  width: 350px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.email {
+  margin-bottom: 1rem;
+  color: #555;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 1rem;
+}
+
+label {
+  text-align: left;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+input[type="password"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forgot-password {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: #1a73e8;
+  font-size: 0.9rem;
+}
+
+button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links a {
+  margin-left: 10px;
+  color: #555;
+  text-decoration: none;
+}
